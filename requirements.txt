@@ -1,0 +1,6 @@
+docling
+beautifulsoup4
+langchain-community
+pypdf
+
+
