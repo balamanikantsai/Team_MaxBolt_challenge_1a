@@ -14,7 +14,8 @@ COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Copy application code
-COPY . .
+COPY main.py .
+COPY challenge-1a.py .
 
 # Make main.py executable
 RUN chmod +x main.py
